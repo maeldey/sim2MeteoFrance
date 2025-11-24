@@ -1,4 +1,6 @@
 # sim2MeteoFrance
+⏳en cours de construction ... 
+
 Package R pour récupérer les données quotidiennes du modèle SIM2 de Météo-France disponibles sur : https://www.data.gouv.fr/datasets/donnees-changement-climatique-sim-quotidienne/. 
 
 Il comporte actuellement 2 fonctions : 
