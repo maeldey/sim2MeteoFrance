@@ -2,7 +2,7 @@
 #'
 #' @param LAMBXLAMBY_meteoFrance une chaine de caractère où LAMBX et LAMBY sont séparées par un espace
 #'
-#' @returns les données météorologiques du point de grille identifié, depuis le 1er du mois précédent
+#' @returns les données météorologiques du point de grille identifiées, depuis le 1er du mois précédent
 #' @keywords internal
 #'
 #' @import httr2
