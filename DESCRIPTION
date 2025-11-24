@@ -1,0 +1,18 @@
+Package: sim2MeteoFrance
+Title: Récupère les données SIM2 de Météo France depuis l'API data.gouv.fr
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maël", "de Yparraguirre", , "mael.deyparraguirre@gmail.com", role = c("aut", "cre"))
+Description: Ce package permet de récupérer les données du modèle Safran-Isba-Modcou 2 de Météo-France en interrogeant l'API de data.gouv.fr. 
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    purrr,
+    readr,
+    dplyr,
+    ggspatial,
+    httr2,
+    sf,
+    stringr

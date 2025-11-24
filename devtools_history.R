@@ -1,0 +1,6 @@
+usethis::use_build_ignore("devtools_history.R")
+usethis::use_package("dplyr")
+usethis::use_package("httr2")
+usethis::use_package("sf")
+usethis::use_package("ggspatial")
+usethis::use_import_from("stringr", "str_split")
