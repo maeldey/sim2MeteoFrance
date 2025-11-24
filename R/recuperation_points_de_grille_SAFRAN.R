@@ -1,6 +1,6 @@
 #' Récupération des identifiants des points de grille SAFRAN
 #'
-#' @returns la localisation de tous les points de grille disponibles
+#' @returns Renvoie la liste de tous les points de la grille SAFRAN dont les données météorologiques sont disponibles 
 #' @export
 #'
 #' @import purrr
