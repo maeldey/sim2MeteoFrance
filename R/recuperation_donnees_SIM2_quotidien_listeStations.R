@@ -11,7 +11,7 @@
 #' @import ggspatial
 #'
 #' @examples
-#' # Identifiant des points de grille situés dans la vallée du Grésivaudan : LAMBX LAMBY
+#' # Import les données météorologiques de deux points de grille situés en Isère à partir de points au format (LAMBX LAMBY)
 #' data_list <- recuperation_donnees_SIM2_quotidien_listeStations(c("760 24170", "8680 20250"))
 recuperation_donnees_SIM2_quotidien_listeStations <- function(liste_LAMBXLAMBY_meteoFrance) {
   data <- purrr::map_dfr(
