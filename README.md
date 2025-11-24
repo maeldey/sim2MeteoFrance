@@ -2,8 +2,10 @@
 ⏳en cours de construction ... 
 
 Pour importer ce package dans votre projet sous R : 
+```{r}
   install.packages("remotes")
   remotes::install_github("maeldey/sim2meteoFrance")
+```
 
 Package R pour récupérer les données quotidiennes du modèle SIM2 de Météo-France disponibles sur : https://www.data.gouv.fr/datasets/donnees-changement-climatique-sim-quotidienne/. 
 
