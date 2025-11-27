@@ -17,4 +17,4 @@ Il comporte 2 fonctions :
 
 ## Structure du dossier
 Les fichiers et dossiers présents dans ce package ont été créés automatiquement par le générateur de package de R Studio et Devtools en suivant le tutoriel : https://thinkr.fr/creer-package-r-quelques-minutes/. 
-Le dossier le plus intéressant est celui qui contient les fonctions 
+Les fonctions sont écrites dans le dossier "R". 
