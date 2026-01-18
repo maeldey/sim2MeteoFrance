@@ -29,6 +29,7 @@ recuperation_points_de_grille_SAFRAN <- function() {
       crs = 27572,
       remove = TRUE
     ) %>%
+    st_buffer(dist = 4000, endCapStyle = "SQUARE") %>%
     # Coordinate System Reference transformation to WSG:4326
     st_transform(crs = 4326)
   return(sim2_points)
